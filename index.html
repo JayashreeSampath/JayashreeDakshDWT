@@ -1,0 +1,100 @@
+<!-- As part of your recruitment process we require you
+  to write CSS and JS for the HTML template provided -->
+
+<!-- You are allowed to add elements but not delete any element provided in this file. -->
+<!-- You are allowed to add attributes to the tags 
+  which will let you select them in your CSS and JS -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daksh</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <header>
+      <div class="head">
+        <h1 class="t1">Daksh</h1>
+        <div class="loader">
+          <marquee direction="right"><h2 class="load">daksh2k22 loading...</h2></marquee>
+        </div>
+      </div>
+      <nav>
+        <ul id="navbar">
+          <li class="navele">Home</li>
+          <li class="navele">Events</li>
+          <li class="navele">Team</li>
+          <li class="navele">Contact Us</li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <article class="sec2">
+        <div class="text1">
+          <p>
+            DAKSH, the international techno-management festival of SASTRA University
+          </p>
+        </div>
+        <div class="img">
+          <img class="image" src="undraw_profile_data_re_v81r.svg" alt="Contact Us" style="width:500px;height:auto" />
+        </div>
+        
+      </article>
+    </section>
+
+    <div class="text2">
+      <i>"Feedback is the breakfast of champions.”</i>
+      <b> - Ken Blanchard</b>
+    </div>
+
+    <section class="formfeedback">
+      <p class="text3">
+        We are always in the lookout for feedback and suggestions. Shoot your
+            queries and rest assured, we'll get back to you ASAP!</p>
+      <div class="feedback">
+        <form>
+          <fieldset class="form1">
+            <legend class="form2">Write to us</legend>
+            <div class="name">
+              <label for="fname">First name:</label>
+              <input class="textfield" type="text" id="fname" name="fname" placeholder="enter your name" />
+            <br />
+            </div>
+            <div class="college">
+              <label for="college">College:</label>
+              <input class="dropdown" list="colleges" name="college" id="college" placeholder="choose your college"/>
+              <datalist id="colleges">
+                <option value="SASTRA Thanjavur"></option>
+                <option value="IIT Madras"></option>
+                <option value="NIT Trichy"></option>
+                <option value="SSN Chennai"></option>
+              </datalist>
+              <br />
+            </div>
+            <input class="submit" type="submit" value="Submit" />
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p class="text4">
+        Other places you can find us:</p>
+      <span class="links">
+        <a target="_blank" href="https://instagram.com"
+          ><div><img class="insta" src="instagram.png" style="width:30px;height:auto" /></div
+        ></a>
+        <a target="_blank" href="https://twitter.com"
+          ><div><img class="twitter" src="twitter.png" style="width:30px;height:30px"/></div
+        ></a>
+        <a class="heart" target="_black" href="https://www.dakshtech.org/">Your heart</a>
+      </span>
+
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
